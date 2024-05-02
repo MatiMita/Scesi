@@ -32,12 +32,12 @@ Para subir y especificar que subir al main
 ```bash
 git commit -m
 ```
-El nombre de lo que estoy subiendo
+El nombre de lo que estoy subiendo, "-m" me permite darle un nombre 
 ## Comando Git push
 ```bash
 git push
 ```
-Permite subir los commits desde la rama al main
+Permite subir los cambios en la rama que estoy trabajando
 
 ## Comando Git Restore
 ```bash
@@ -50,3 +50,5 @@ Permite poder restaurar algun archivo o proyectos por completo
 git log 
 ```
 Permite mostrar todos los commits en el historial del repositorio
+
+# Clase 2 
