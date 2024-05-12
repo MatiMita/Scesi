@@ -116,8 +116,18 @@ test : refactoriza un codigo ya  existente
 # CLASE 7
 ### COMO DESHACER MIS CAMBIOS?
 Hay dos formas de deshacer el ultimo commit.
-
+```bash
+git reset --soft HEAD^
+```
+```bash
+git reset --hard HEAD^
+```
 Con este comando que se hace en vez de eliminarlos,mantiene los cambios  que se hicieron en el commit 
+
+Y por ultimo esta este ultimo comando 
+```bash
+git reset HEAD <nombre_del_archivo>
+```
 # CLASE 8
 ## Que es un Hook?
 Nos permite ejecutar una accion o script cada vez que ocurre un evento en git.
