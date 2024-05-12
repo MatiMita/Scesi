@@ -79,3 +79,37 @@ Nos permite sincronizar los cambios  de los repositorios  local con el remoto
  Nos permite crear ramas desde nuestro codigo asi mismo visualizar
 # CLASE 4
 Pull Request : Es una peticion de cambios que se envia el repositorio original
+# CLASE 5
+ ## GIT FLOW
+ RAMAS PRINCIPALES
+ MAIN: Su proposito es contener el codigo que encuentre en produccion  
+ DEVELOP: Tienen caracteristicas que todavia tienen que ser probadas y validas        
+ ## TRUNK BASED DEVELOPMENT
+ Se deben hacer commits constantes para que los cambios sean mas faciles de integrar. Tambien hay redes que deshacen un pase a produccion en el caso que algo haya salido mal.
+ ## Ship / Show / Ask
+ - SHIP : Se fusiona en la rama principal sin revision 
+ - SHOW : Se muestra los cambios paara que sea revisados por CI
+ - ASK : Abre un PR para discutir  los cambios antes de funsionarlos 
+# CLASE 6
+## BUENAS PRACTICAS
+- Usar los verbos imperativos  
+add : Aniade un nuevo archivo
+```bash
+git commit -m "aniadimos un nuevo archivo."  # esta mal por el punto final
+```
+```bash
+git commit -m "para arreglar un problema..." # esta mal por los puntos suspensivos 
+```
+```bash
+git commit -m "cambiamos por defecto el sistema del color" # esta bien ya que no hay errores de sintaxis 
+```
+- Usar como maximo 50 caracteres para todos los mensajes de commit
+- Usar los prefijos para los commits
+
+feat : para una nueva caracteristica del usuario
+fix : bug que afecta al usuario 
+ perf : cambios que mejora los rendimientos     
+ build : para cambios del sistema  
+ci : para los cambios de integracion    
+refactor : refactorizacion de codigo      
+test : refactoriza un codigo ya  existente
