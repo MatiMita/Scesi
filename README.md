@@ -113,3 +113,19 @@ fix : bug que afecta al usuario
 ci : para los cambios de integracion    
 refactor : refactorizacion de codigo      
 test : refactoriza un codigo ya  existente
+# CLASE 7
+### COMO DESHACER MIS CAMBIOS?
+Hay dos formas de deshacer el ultimo commit.
+
+Con este comando que se hace en vez de eliminarlos,mantiene los cambios  que se hicieron en el commit 
+# CLASE 8
+## Que es un Hook?
+Nos permite ejecutar una accion o script cada vez que ocurre un evento en git.
+- pre-commit : permite comprobar o es un bue sitio para ejecutar linter   
+- pre-push :  ejecuta una bateria de test
+- posst-checkout y post-merge : permite limpiar el directorio de trabajo despues de hacer checkout que ya no se usan tras realizar un merge.
+# QUE ES UN ALIAS?
+Nos permite crear nuestros propios comandos que se usan habitualmente
+```bash
+git config --global alias.[nombre-del-alias]
+```
