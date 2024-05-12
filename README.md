@@ -52,8 +52,30 @@ git log
 Permite mostrar todos los commits en el historial del repositorio
 
 # Clase 2 
-
-aca estara mi nuevo proyecto
-belen
-
-belen estas loquita
+## GIT BRANCH
+Permite crea,listar ,eliminar y renobar las ramas
+```bash
+git branch mi-rama
+```
+## GIT MERGE
+Sirve para incorporar los cambios de una rama a la rama en la que nos encontramos
+## GIT CHECKOUT
+Cambia entre ramas y restura en el directorio de trabajo
+## RESOLVER CONFLICTOS
+Es una situacion en la que no es capaz de determinar que cambio es el tiene prevalecer una vez ocurra la fusion
+```bash
+git diff
+```
+## GIT CONFIG
+Permite eitar lo que se utiliza en git
+# CLASE 3
+## Git remote origin<url>
+permite crear y eliminar conexione de otros repositorios
+## Git push origin<rama>
+Nos permite sincronizar los cambios  de los repositorios  local con el remoto
+ ## GIT RMEOTE PRUNE ORIGIN 
+ Nos permite elimnar ramas que ya no existen en el remoto  y que podemos eliminar en el local
+ ## Git branch
+ Nos permite crear ramas desde nuestro codigo asi mismo visualizar
+# CLASE 4
+Pull Request : Es una peticion de cambios que se envia el repositorio original
